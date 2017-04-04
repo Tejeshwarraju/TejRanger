@@ -5,11 +5,7 @@ multibranchPipelineJob('example') {
             remote('https://github.com/Tejeshwarraju/com.mybank.online.git')
         }
     }
-    orphanedItemStrategy {
-        discardOldItems {
-            numToKeep(20)
-        }
-    }
+   
   definition {
         cps {
             script(readFileFromWorkspace('Jenkinsfile'))
