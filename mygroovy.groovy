@@ -1,6 +1,6 @@
 pipeline ("MultiBranchSeedJob")
 {
-scm {'https://github.com/Tejeshwarraju/TejRanger.git', 'master'}
+scm ("https://github.com/Tejeshwarraju/TejRanger.git", 'master')
 }
 steps
 {
