@@ -4,7 +4,7 @@ multibranchPipelineJob('example') {
         git {
             remote('https://github.com/Tejeshwarraju/TejRanger.git')
             credentialsId('')
-            includes('mas*')
+            includes('*')
         }
     }
    orphanedItemStrategy {
