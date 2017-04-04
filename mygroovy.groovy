@@ -1,5 +1,5 @@
 #!groovy
-freeStyleJob('example') {
+freeStyleJob('Seedjobchild') {
     
     scm {
         git('https://github.com/Tejeshwarraju/TejRanger.git', 'master')
