@@ -1,4 +1,4 @@
-pipeline ("MultiBranchSeedJob")
+freeStyleJob ("MultiBranchSeedJob")
 {
 scm ("https://github.com/Tejeshwarraju/TejRanger.git", 'master')
 }
