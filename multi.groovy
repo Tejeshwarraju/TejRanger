@@ -6,12 +6,6 @@ multibranchPipelineJob('example') {
         }
     }
    
-  definition {
-        cps {
-            script(readFileFromWorkspace('Jenkinsfile'))
-            sandbox()
-        }
-    }
     steps {
         steps {
         shell('python myscript.py')
